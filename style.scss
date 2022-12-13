@@ -1,0 +1,117 @@
+body {
+  margin: 0%;
+  padding: 0%;
+
+  nav {
+    .rowup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-right: 20vh;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: 1px solid green;
+        width: 700px;
+        height: 40px;
+        margin-right: 6vh;
+
+        .navInput {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .left {
+            display: flex;
+            span {
+              font-weight: bold;
+              margin-left: 14px;
+              margin-right: 6px;
+            }
+            input {
+              border: 0ch;
+              outline: none;
+            }
+            .vertical {
+              border-left: 2px solid gray;
+              height: 20px;
+              margin-left: 5px;
+              margin-right: 5px;
+            }
+          }
+          svg {
+            margin-right: 10px;
+          }
+        }
+
+        .rowdown {
+        }
+      }
+
+      .buttonLocation {
+        background-color: white;
+        border: 1px solid green;
+        border-radius: 4px;
+        width: 140px;
+        padding: 10px;
+        svg {
+          color: gray;
+        }
+        span {
+          color: green;
+        }
+      }
+
+      .navList {
+        .list {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          list-style: none;
+          li {
+            a {
+              text-decoration: none;
+              margin-right: 15px;
+              color: gray;
+              svg {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .rowdown{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+      background-color:rgb(2, 172, 121) ;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    i{
+    margin-right: 5px;
+
+    }
+    }
+    ul{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    li{
+      margin-left: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    }
+    }
+    }
+    
+  }
+}

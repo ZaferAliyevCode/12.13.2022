@@ -1,0 +1,74 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+body nav .rowup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body nav .rowup img {
+  margin-right: 20vh;
+}
+body nav .rowup .box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid green;
+  width: 700px;
+  height: 40px;
+  margin-right: 6vh;
+}
+body nav .rowup .box .navInput {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body nav .rowup .box .navInput .left {
+  display: flex;
+}
+body nav .rowup .box .navInput .left span {
+  font-weight: bold;
+  margin-left: 14px;
+  margin-right: 6px;
+}
+body nav .rowup .box .navInput .left input {
+  border: 0ch;
+  outline: none;
+}
+body nav .rowup .box .navInput .left .vertical {
+  border-left: 2px solid gray;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+body nav .rowup .box .navInput svg {
+  margin-right: 10px;
+}
+body nav .rowup .buttonLocation {
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 4px;
+  width: 140px;
+  padding: 10px;
+}
+body nav .rowup .buttonLocation svg {
+  color: gray;
+}
+body nav .rowup .buttonLocation span {
+  color: green;
+}
+body nav .rowup .navList .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+body nav .rowup .navList .list li a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: gray;
+}
+body nav .rowup .navList .list li a svg {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
